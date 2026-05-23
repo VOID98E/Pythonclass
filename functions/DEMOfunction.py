@@ -30,14 +30,20 @@
     
 # fun1(stu)\
 
-def add_numbers(num1, num2):
-    return num1 + num2
-result = add_numbers(5, 10)
-print(result)
+# def add_numbers(num1, num2):
+#     return num1 + num2
+# result = add_numbers(5, 10)
+# print(result)
 
 
-a=19
-b=10
-print(a>b)
-print(add_numbers)
+# a=19
+# b=10
+# print(a>b)
+# print(add_numbers)
+
+def check_even_odd(num):
+    if num % 2 == 0:
+        return f"the number {num} is even"
+    else:
+        return f"the number {num} is odd"
 
